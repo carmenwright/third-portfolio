@@ -1,0 +1,145 @@
+/* ABOUT ME *******************/
+
+#about-me {
+    @extend %padding20;
+    background-color: $dblue;
+    .headshot {
+        @extend %centered;
+        @extend %padding10;
+        @media #{$brk-wide} {
+            align-content: center;
+            padding: 0 20px 0 40px;
+        }
+    }
+    p {
+        padding: 10px;
+        color: $white;
+        @media #{$brk-wide} {
+            align-content: left;
+            float: right;
+            font-size: 1.125em;
+        }
+    }
+}
+
+.about-me-info {
+    @extend %centered;
+    margin: 20px;
+    @media #{$brk-wide} {
+        text-align: left;
+        float: right;
+    }
+    h4 {
+        @media #{$brk-wide} {
+            font-size: 3.5em;
+            padding: 20px;   
+        }
+    }
+}
+
+
+
+/* CODETTE CLUB *******************/
+
+#codette-club {
+    @extend %centered;
+    @extend %padding20;
+    h2 {
+        @extend %centered;
+        color: $dgrey;
+    }
+    p {
+        @extend %padding10;
+        @media #{$brk-narrow} {
+            float: right;
+        }
+        @media #{$brk-wide} {
+            align-content: center;
+            float: right;
+            margin: 20px;
+            padding: 20px;
+        }
+    }
+    .img-thumbnail {
+        @media #{$brk-narrow} {
+            width: 30%;
+            display: block;
+            margin: auto;
+        }
+        @media #{$brk-wide} {
+            align-content: center;
+            float: left;
+            padding: 0 20px 0 40px;
+        }
+        
+    }
+}
+
+/* EDUCATION *******************/
+
+#education {
+    @extend %padding20;
+    background-color: $dblue;
+    h2 {
+        @extend %centered;
+    }
+    h1#treehouse-count {
+        @extend %centered;
+    }
+}
+
+
+/* DESIGN & DEVELOPMENT *******************/
+
+#design, #development {
+    @extend %padding20;
+}
+
+#design h2, #development h2 {
+    @extend %centered;
+    color: $dgrey;
+}
+    
+.card {
+    margin-bottom: 20px;
+    @media #{$brk-wide} {
+        &-deck {
+            padding: 0 20px 0 40px;
+        }
+    }
+    
+    &-img-top {
+        width: 100%;
+        @media #{$brk-wide} {
+            width: 100%;
+            height: auto;
+            size: contain;
+        }
+    }
+    
+    &-block {
+        background-color: $white;
+    }
+   
+    &-title {
+        @extend %centered;
+        color: $dblue;
+        font-size: 1.75em;
+        @media #{$brk-wide} {
+            font-size: 2em;
+        }
+        a {
+            color: $dblue;
+            text-align: left;
+        }
+    }
+}
+
+
+
+
+
+
+
+
+

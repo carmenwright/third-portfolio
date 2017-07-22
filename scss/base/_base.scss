@@ -1,0 +1,57 @@
+/* GLOBAL STYLES *******************/ 
+
+html, body {
+    background-color: $white;
+}
+
+h1, h2, h3, h4 {
+    @include text ($size: null, $l-height: inherit, $color: $white);
+    font-family: $stack-shadows;
+    margin: 20px;
+}
+
+h1 {
+    font-size: 3em;
+}
+
+h2 {
+    font-size: 2.5em;
+}
+
+h3 {
+    font-size: 2em; 
+}
+
+h4 {
+    @media #{$brk-narrow} {
+        font-size: 2.5em;
+    }
+    font-size: 1.5em;
+    display: inline;
+}
+
+p {
+    font-family: $roboto-font-stack;
+    line-height: inherit;
+    font-size: 1em;
+    @media #{$brk-wide} {
+        font-size: 1.25em;
+    }
+}
+
+header, #about-me, #codette-club, #education, #design, #development footer {
+    display: flex;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-flow: row wrap;
+    flex-flow: column;
+}
+
+#about-me, #codette-club, #education, #design, #development {
+    @media #{$brk-narrow} {
+        padding-top: 25px;   
+    }
+}

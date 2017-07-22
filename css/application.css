@@ -1,0 +1,245 @@
+/*Global Imports*/
+/* GLOBAL STYLES *******************/
+html, body {
+  background-color: #f7f5fb; }
+
+h1, h2, h3, h4 {
+  line-height: inherit;
+  color: #f7f5fb;
+  font-family: "Shadows Into Light Two", Helvetica, Arial, sans-serif;
+  margin: 20px; }
+
+h1 {
+  font-size: 3em; }
+
+h2 {
+  font-size: 2.5em; }
+
+h3 {
+  font-size: 2em; }
+
+h4 {
+  font-size: 1.5em;
+  display: inline; }
+  @media (min-width: 768px) {
+    h4 {
+      font-size: 2.5em; } }
+
+p {
+  font-family: "Roboto", sans-serif;
+  line-height: inherit;
+  font-size: 1em; }
+  @media (min-width: 940px) {
+    p {
+      font-size: 1.25em; } }
+
+header, #about-me, #codette-club, #education, #design, #development footer {
+  display: flex;
+  display: -webkit-box;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-flex-flow: row wrap;
+  flex-flow: column; }
+
+@media (min-width: 768px) {
+  #about-me, #codette-club, #education, #design, #development {
+    padding-top: 25px; } }
+
+/* HEADER *******************/
+header {
+  background-image: url("../img/header.jpg");
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  position: relative; }
+
+header h1, h3 {
+  color: #084887; }
+  @media (min-width: 768px) {
+    header h1, h3 {
+      text-align: center; } }
+
+@media (min-width: 940px) {
+  header h1 {
+    text-align: left;
+    font-size: 5em;
+    padding: 25px; } }
+
+@media (min-width: 940px) {
+  header h3 {
+    text-align: left;
+    font-size: 4em;
+    padding: 25px;
+    padding-top: 20px; } }
+
+nav {
+  width: 100%; }
+  nav ul {
+    text-align: center;
+    list-style: none; }
+    nav ul li {
+      text-align: center; }
+      @media (min-width: 768px) {
+        nav ul li {
+          display: inline-block;
+          padding: 15px;
+          margin: 5px; } }
+      @media (min-width: 940px) {
+        nav ul li {
+          font-size: 1.2em; } }
+      nav ul li a {
+        color: #414141; }
+
+/* FOOTER *******************/
+footer {
+  background-color: #084887;
+  font-size: 1em; }
+  footer .fa {
+    margin-right: 15px;
+    color: #f7f5fb; }
+    @media (min-width: 940px) {
+      footer .fa {
+        font-size: 1.25em; } }
+  footer ul {
+    list-style: none; }
+    footer ul li {
+      display: inline-block; }
+  footer p {
+    color: #f7f5fb; }
+    @media (min-width: 940px) {
+      footer p {
+        font-size: 1em; } }
+
+/* ABOUT ME *******************/
+#about-me {
+  background-color: #084887; }
+  @media (min-width: 940px) {
+    #about-me .headshot {
+      align-content: center;
+      padding: 0 20px 0 40px; } }
+  #about-me p {
+    padding: 10px;
+    color: #f7f5fb; }
+    @media (min-width: 940px) {
+      #about-me p {
+        align-content: left;
+        float: right;
+        font-size: 1.125em; } }
+
+.about-me-info {
+  margin: 20px; }
+  @media (min-width: 940px) {
+    .about-me-info {
+      text-align: left;
+      float: right; } }
+  @media (min-width: 940px) {
+    .about-me-info h4 {
+      font-size: 3.5em;
+      padding: 20px; } }
+
+/* CODETTE CLUB *******************/
+#codette-club h2 {
+  color: #414141; }
+@media (min-width: 768px) {
+  #codette-club p {
+    float: right; } }
+@media (min-width: 940px) {
+  #codette-club p {
+    align-content: center;
+    float: right;
+    margin: 20px;
+    padding: 20px; } }
+@media (min-width: 768px) {
+  #codette-club .img-thumbnail {
+    width: 30%;
+    display: block;
+    margin: auto; } }
+@media (min-width: 940px) {
+  #codette-club .img-thumbnail {
+    align-content: center;
+    float: left;
+    padding: 0 20px 0 40px; } }
+
+/* EDUCATION *******************/
+#education {
+  background-color: #084887; }
+
+/* DESIGN & DEVELOPMENT *******************/
+#design h2, #development h2 {
+  color: #414141; }
+
+.card {
+  margin-bottom: 20px; }
+  @media (min-width: 940px) {
+    .card-deck {
+      padding: 0 20px 0 40px; } }
+  .card-img-top {
+    width: 100%; }
+    @media (min-width: 940px) {
+      .card-img-top {
+        width: 100%;
+        height: auto;
+        size: contain; } }
+  .card-block {
+    background-color: #f7f5fb; }
+  .card-title {
+    color: #084887;
+    font-size: 1.75em; }
+    @media (min-width: 940px) {
+      .card-title {
+        font-size: 2em; } }
+    .card-title a {
+      color: #084887;
+      text-align: left; }
+
+footer, #about-me .headshot, .about-me-info, #codette-club, #codette-club h2, #education h2, #education h1#treehouse-count, #design h2, #development h2, .card-title {
+  text-align: center; }
+
+header, footer, #about-me, #codette-club, #education, #design, #development {
+  padding: 20px; }
+
+footer .fa, #about-me .headshot, #codette-club p {
+  padding: 10px; }
+
+@font-face {
+  font-family: "Shadows Into Light Two";
+  src: url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
+  src: url("https://fonts.googleapis.com/css?family=Roboto"); }
+@font-face {
+  font-family: "Roboto";
+  src: url("https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two");
+  src: url("https://fonts.googleapis.com/css?family=Roboto"); }
+/*TREEHOUSE BADGE */
+/* Controls width of the widget */
+.badge-container {
+  width: 700px;
+  margin: 0 auto; }
+
+/* Makes Badges display inline */
+#badges li {
+  display: inline; }
+
+/* Controls badges row offset. THIS FUNCTION WILL CHANGE BASED ON THE NUMBER OF BADGES PER ROW */
+/* Indent 30px every eleventh badge, repeat every 20 badges */
+#badges li:nth-child(20n+11) {
+  margin-left: 20px; }
+
+/* Controls badges size and alignment */
+#badges li img {
+  width: 70px;
+  margin: -17px 2px 0px 0px; }
+
+/* Controls Header Formatting */
+.badge-container h1 {
+  text-align: center;
+  font-family: 'Robot' sans-serif;
+  /*font-weight: bold; */
+  -webkit-font-smoothing: antialiased; }
+
+/* Controls badges on-hover opacity */
+#badges li img:hover {
+  opacity: .7; }
+
+/*# sourceMappingURL=application.css.map */

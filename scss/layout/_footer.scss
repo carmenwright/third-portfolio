@@ -1,0 +1,28 @@
+/* FOOTER *******************/
+
+footer {
+    @extend %centered;
+    @extend %padding20;
+    background-color: $dblue;
+    font-size: 1em;
+    .fa {
+        @extend %padding10;
+        margin-right: 15px;
+        color: $white;
+        @media #{$brk-wide} {
+            font-size: 1.25em;
+        }
+    }
+    ul {
+        list-style: none;
+        li {
+            display: inline-block;
+        }
+    }
+    p {
+        color: $white;
+        @media #{$brk-wide} {
+            font-size: 1em;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+//Web Fonts
+
+@mixin font-face($family) {
+    @font-face {
+      font-family: $family;
+        src: url('https://fonts.googleapis.com/css?family=Shadows+Into+Light+Two');
+        src: url('https://fonts.googleapis.com/css?family=Roboto');
+    }
+}
+
+
+//Text
+
+@mixin text($size, $l-height: null, $color: null) {
+    font-size: $size;
+    line-height: $l-height;
+    color: $color;
+}

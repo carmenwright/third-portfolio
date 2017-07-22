@@ -1,0 +1,24 @@
+//Descriptive Color Variables
+
+$dblue: #084887;
+$dgrey: #414141;
+$white: #f7f5fb;
+
+
+//Font Stacks
+
+$stack-sans-serif: Helvetica, Arial, sans-serif;
+$stack-shadows: "Shadows Into Light Two", $stack-sans-serif;
+$roboto-font-stack: 'Roboto', sans-serif;
+
+
+//Asset Paths
+
+$path-img: "../img";
+$path-font: "../fonts";
+
+
+//Media Query Breakpoints
+
+$brk-narrow: "(min-width: 768px)";
+$brk-wide: "(min-width: 940px)";
