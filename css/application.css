@@ -26,7 +26,7 @@ h4 {
       font-size: 2.5em; } }
 
 p {
-  font-family: "Roboto", sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
   line-height: inherit;
   font-size: 1em; }
   @media (min-width: 940px) {
